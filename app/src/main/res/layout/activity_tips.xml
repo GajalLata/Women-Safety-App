@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tips">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#121111"
+        app:srcCompat="@drawable/safety" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="1. PRACTICE AWARENESS"
+
+                android:textColor="#F44336"
+
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="This is your first line of defense. Most people think of kicks to the groin and blocking punches when they hear the term “self-defense.” However, true self-defense begins long before any actual physical contact. The first, and probably most important, component in self-defense is awareness: awareness of yourself, your surroundings, and your potential attacker’s likely strategies.
+
+The criminal’s primary strategy is to use the advantage of surprise. Studies have shown that criminals are adept at choosing targets who appear unaware of what is going on around them. By being aware of your surroundings and projecting a “force presence,” you can avoid many common altercations on the street."
+
+                android:textColor="#030304"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="2. USE YOUR SIXTH SENSE"
+
+                android:textColor="#F44336"
+
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="“Sixth sense.” “Gut instinct.” Whatever you call it, your intuition is a powerful subconscious insight into situations and people. All of us, especially women, have this gift, but very few of us pay attention to it. Learn to trust this power and use it to your full advantage. Avoid a person or a situation that does not “feel” safe — you’re probably right. "
+
+                android:textColor="#030304"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="3. TAKE SELF-DEFENSE TRAINING"
+
+                android:textColor="#F44336"
+
+                android:textSize="34sp" />
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="It is important to evaluate the goals and practical usefulness of a women’s self-defense program before signing up.
+
+Here are two tips: 1. Avoid martial arts studios** unless you specifically wish to train in the traditional martial arts techniques and are prepared for a long-term commitment. Many women’s self-defense programs teach watered-down martial arts techniques that are complex and unrealistic under the stress of an actual attack. 2. The self-defense program should include simulated assaults**, with a fully padded instructor in realistic rape and attack scenarios, to allow you to practice what you’ve learned. "
+
+                android:textColor="#030304"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="4. ESCAPE IS ALWAYS YOUR BEST OPTION"
+
+                android:textColor="#F44336"
+
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="What if the unthinkable happens? You are suddenly confronted by a predator who demands that you go with him — be it in a car, or into an alley, or a building. It would seem prudent to obey, but you must never leave the primary crime scene with the predator. You are far more likely to be killed or seriously injured if you go with the predator than if you run away (even if he promises not to hurt you). Run away, yell for help, throw a rock through a store or car window — do whatever you can to attract attention. And if the criminal is after your purse or other material items, throw them one way while you run the other. "
+
+                android:textColor="#030304"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="5. YOU HAVE A RIGHT TO FIGHT"
+
+                android:textColor="#F44336"
+
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Unfortunately, no matter how diligently we practice awareness and avoidance techniques, we may find ourselves in a physical confrontation. Whether or not you have self-defense training, and no matter what your age or physical condition, it is important to understand that you CAN and SHOULD defend yourself physically. You have both the moral and legal right to do so, even if the attacker is only threatening you and hasn’t struck first. Many women worry that they will anger the attacker and get hurt worse if they defend themselves, but statistics clearly show that your odds of survival are far greater if you do fight back. Aim for the eyes first and the groin second. Remember, though, to use the element of surprise to your advantage — strike quickly, and mean business. You may only get one chance. "
+
+                android:textColor="#030304"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="6. PEPPER SPRAY IS 6.6. NOT YOUR SECRET WEAPON"
+
+                android:textColor="#F44336"
+
+                android:textSize="34sp" />
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Pepper spray, like other self-defense aids, can be a useful tool. However, it is important to understand that there can be significant drawbacks to its use. For example, did you know that it doesn’t work on everyone? Surprisingly, 15-20% of people will not be incapacitated even by a full-face spray. Also, if you’re carrying it in your purse, you will only waste time and alert the attacker to your intentions while you fumble for it. Never depend on any self-defense tool or weapon to stop an attacker. Trust your body and your wits, which you can always depend on in the event of an attack. "
+
+                android:textColor="#030304"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="7. SAFEGUARD AGAINST HOME INVASIONS"
+
+                android:textColor="#F44336"
+
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="This crime is on the rise. The primary way to prevent a home invasion is simply to never, ever open your door unless you either are certain you know who’s on the other side or can verify that they have a legitimate reason for being there (dressing up as a repair person or even police officer is one trick criminals use). In the event that an intruder breaks in while you’re home, you should have a safe room in your house to which you can retreat. Your safe room should be equipped with a strong door, deadbolt lock, phone (preferably cell phone), and a can of pepper spray or fire extinguisher.
+
+ "
+
+                android:textColor="#030304"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="8. AVOID A CAR-JACKING"
+
+                android:textColor="#F44336"
+
+                android:textSize="34sp" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Lock all doors and keep windows up when driving. Most car-jackings take place when vehicles are stopped at intersections. The criminals approach at a 45-degree angle (in the blind spot), and either pull you out of the driver’s seat or jump in the passenger’s seat. "
+
+                android:textColor="#030304"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="9. BE PREPARED WHEN YOU TRAVEL"
+
+                android:textColor="#F44336"
+
+                android:textSize="34sp" />
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Violent crimes against women happen in the best and worst hotels around the world. Predators may play the part of a hotel employee, push their way through an open or unlocked door, or obtain a pass key to the room. As with home safety, never open your door unless you are certain the person on the other side is legitimate, and always carry a door wedge with you when you travel. A wedge is often stronger than the door it secures."
+
+                android:textColor="#030304"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="10. USE THE INTERNET WISELY"
+
+                android:textColor="#F44336"
+
+                android:textSize="34sp" />
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Although the Internet is educational and entertaining, it can also be dangerous if one isn’t careful. When communicating online, use a nickname and always keep personal information such as home address and phone number confidential. Instruct family members to do the same."
+                android:textColor="#030304"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

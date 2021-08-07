@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".laws"
+>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="217dp"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/women" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="1. The Prohibition of Child Marriage Act, 2006"
+
+                android:textColor="#F44336"
+
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="211dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:foregroundGravity="center"
+                app:srcCompat="@drawable/child" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="According to the International Research Centre for Women, almost 47 percent of girls are married before the age of 18. Currently, India ranks 13 in the world when it comes to child marriages. Since child marriage has been steeped into the Indian culture and tradition since centuries, it has been tough eliminating it.
+
+The Prohibition of Child Marriage Act was made effective in 2007. This act defines child marriage as a marriage where the groom or the bride are underage, that is, the bride is under 18 years of age or the boy is younger than 21 years.
+
+Parents trying to marry underage girls are subject to action under this law. Since the law makes these marriages illegal, it acts as a major deterrent.
+
+out to you at home, at the workplace, or in the society."
+                android:textColor="#030304"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="51dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="350dp"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:background="#090909"
+                app:srcCompat="@android:drawable/ic_media_ff" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

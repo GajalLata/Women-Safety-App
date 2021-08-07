@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F2F2"
+    android:orientation="vertical"
+    tools:context=".call">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/list" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Important Contact no.:"
+                android:textColor="#ED0202"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Police Control room (Noida)– 8800199955, (0120) 2522023, 2518063, 2521420, 2528051 – 56"
+                android:textColor="#101010"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text=" Police Control room (Gurgaon)– 0124  2320100,  2316100"
+                android:textColor="#151414"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text=" DCP Night Duty Delhi Police Hotline – +91 875 0870 099"
+                android:textColor="#020202"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Police Control room (All over India)– 100 (in case your phone can’t dial this add area code before 100 for example for Delhi 011 100)   "
+                android:textColor="#0C0C0C"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="STAY SAFE"
+                android:textColor="#ED0202"
+                android:textSize="34sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
