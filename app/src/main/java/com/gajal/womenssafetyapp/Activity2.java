@@ -13,7 +13,7 @@ ImageView i1;
 ImageView i2;
 ImageView i3;
 ImageView i4;
-ImageView i5;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ ImageView i5;
         i2=findViewById(R.id.imageView23);
         i3=findViewById(R.id.img4);
         i4=findViewById(R.id.imageView15);
-        i5=findViewById(R.id.imageView16);
+
         i1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -54,13 +54,6 @@ ImageView i5;
             }
         });
 
-        i5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent=new Intent(Activity2.this,defence.class);
-                startActivity(intent);
-            }
-        });
 
     }
 }

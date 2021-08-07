@@ -40,9 +40,17 @@ Button b;
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(cb.isChecked()){
+
+
+                if(  name==null || email==null || mobile==null || pass==null || password==null){
+                    Toast.makeText(Register.this, "First fill all empty fields", Toast.LENGTH_SHORT).show();
+
+                }
+               else if(cb.isChecked() && name!=null && email!=null && mobile!=null && pass!=null && password!=null){
                     Toast.makeText(Register.this, "Your Information is successfully submitted", Toast.LENGTH_SHORT).show();
                 }
+
+
                 else
                 {
                     Toast.makeText(Register.this, "Please first accept terms and conditions", Toast.LENGTH_SHORT).show();
